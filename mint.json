@@ -1,9 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "QRBTF Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
+  },
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -13,13 +17,21 @@
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Discord",
+      "url": "https://discord.gg/V9CNuqYfte"
+    },
+  ],
+  "anchors": [
+    {
+      "icon": "discord",
+      "color": "#6741d9",
+      "url": "https://discord.gg/V9CNuqYfte",
+      "name": "Discord"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "App",
+    "url": "https://qrbtf.com/ai"
   },
   "tabs": [
     {
@@ -51,9 +63,9 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "website": "https://qrbtf.com",
+    "github": "https://github.com/ciaochaos",
+    "discord": "https://discord.gg/V9CNuqYfte"
   },
   "backgroundImage": "/background.png"
 }
