@@ -23,6 +23,11 @@
   ],
   "anchors": [
     {
+      "icon": "earth-asia",
+      "url": "https://qrbtf.com",
+      "name": "QRBTF"
+    },
+    {
       "icon": "discord",
       "color": "#6741d9",
       "url": "https://discord.gg/V9CNuqYfte",
