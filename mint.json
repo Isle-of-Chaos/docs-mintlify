@@ -55,8 +55,9 @@
       "pages": ["essentials/param-list", "essentials/bot-commands"]
     },
     {
-      "group": "Support",
+      "group": "Team",
       "pages": [
+        "about",
         "contact"
       ]
     },
