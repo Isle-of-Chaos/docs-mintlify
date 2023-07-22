@@ -62,7 +62,13 @@
       ]
     },
     {
-      "group": "Legal",
+      "group": "Support",
+      "pages": [
+        "contact"
+      ]
+    },
+    {
+      "group": "Legal Information",
       "pages": [
         "privacy-policy",
         "terms-of-service"
