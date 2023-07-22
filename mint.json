@@ -12,7 +12,7 @@
   "favicon": "/favicon.png",
   "colors": {
     "primary": "#000000",
-    "light": "#000000",
+    "light": "#FFFFFF",
     "dark": "#000000"
   },
   "topbarLinks": [
