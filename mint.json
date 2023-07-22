@@ -60,6 +60,13 @@
         "api-reference/endpoint/update",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "Legal",
+      "pages": [
+        "privacy-policy",
+        "terms-of-service"
+      ]
     }
   ],
   "footerSocials": {
