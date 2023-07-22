@@ -5,5 +5,101 @@ icon: 'gear'
 ---
 
 
-## Prompt
+### URL
 
+The URL which you want to generate QR code image.
+
+| Type          | Value           |
+|---------------|-----------------|
+| Default value | `None`          |
+| Range         | `Any valid URL` |
+
+### Prompt
+
+The main theme or subject of the image to be generated.
+
+| Type          | Value        |
+|---------------|--------------|
+| Default value | `None`       |
+| Range         | `Any string` |
+
+### Negative Prompt
+
+An option to exclude a specific element you do not want in the image.
+
+| Type          | Value        |
+|---------------|--------------|
+| Default value | `None`       |
+| Range         | `Any string` |
+
+### Seed
+
+The certain random process you would like for image generation.
+
+| Type          | Value       |
+|---------------|-------------|
+| Default value | `-1`        |
+| Range         | `-1 - 9999` |
+
+### QR Code Control Strength
+
+The control of QR code over the image. Lower strength is harder to recognize but higher strength results in lower quality.
+
+| Type          | Value       |
+|---------------|-------------|
+| Default value | `1.0`       |
+| Range         | `0.5 - 1.5` |
+
+### Prompt Tuning
+
+Option to enable or disable built-in tuning of provided prompt.
+
+| Type          | Value              |
+|---------------|--------------------|
+| Default value | `Enabled`          |
+| Range         | `Enabled/Disabled` |
+
+### Image Restoration Rate
+
+Option to restore the original image compromised by QR code. Higher value can potentially reduce QR code recognizability.
+
+| Type          | Value       |
+|---------------|-------------|
+| Default value | `N/A`       |
+| Range         | `0.1 - 0.5` |
+
+### Size
+
+The desired size of the output image.
+
+| Type          | Value |
+|---------------|-------|
+| Default value | `M`   |
+| Range         | `M/L` |
+
+### Padding Ratio
+
+Proportion of the white border around the QR code.
+
+| Type          | Value     |
+|---------------|-----------|
+| Default value | `0.2`     |
+| Range         | `0 - 0.5` |
+
+### Correct Level
+
+QR code's error correction capacity. Higher level enhances error correction at the cost of reducing QR code capacity.
+
+| Type          | Value     |
+|---------------|-----------|
+| Default value | `M`       |
+| Range         | `L/M/Q/H` |
+
+### Anchor Style
+
+The style of the anchor point in QR code.
+
+| Type          | Value                                   |
+|---------------|-----------------------------------------|
+| Default value | `Square`                                |
+| Range         | `Square/Rectangle/Circle/Minimal/0/1/2` |
