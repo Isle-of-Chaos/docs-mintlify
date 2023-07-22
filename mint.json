@@ -52,7 +52,7 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/param-list", "essentials/bot-commands"]
+      "pages": ["essentials/param-list", "essentials/bot-commands", "essentials/faq"]
     },
     {
       "group": "About",
