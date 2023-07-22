@@ -1,0 +1,84 @@
+---
+title: 'Discord Bot Parameters'
+description: 'Mintlify gives you complete control over the look and feel of your documentation using the mint.json file'
+icon: 'gear'
+---
+
+Every Mintlify site needs a `mint.json` file with the core configuration settings. Learn more about the [properties](#properties) below.
+
+
+## /qrtest
+
+### Usage
+
+### Examples
+
+### Parameters
+
+<ResponseField name="prompt" type="string" required>
+    Prompt. Describe what you want of a QR code.
+
+    Example: `pattern, flowers`
+
+</ResponseField>
+
+<ResponseField name="--no" type="string">
+    Negative Prompt. Exclude what you want in the image.
+
+    Example: `people`
+
+</ResponseField>
+
+<ResponseField name="--qrcontrol" default="1.0" type="number 0.5 - 1.5">
+    QR code control strength, lower values make it harder to recognize, higher values result in poorer quality.
+
+    Example: `1.2`
+
+</ResponseField>
+
+<ResponseField name="--seed" default="-1" type="int -1 - 9999">
+    Random seed, default is -1 which means random; can be specified as a number from 0 to 9999.
+
+    Example: `1234`
+
+</ResponseField>
+
+<ResponseField name="--padding" default="0.2" type="number 0 - 0.5">
+    QR code padding ratio.
+
+    Example: `0.3`
+
+</ResponseField>
+
+<ResponseField name="--size" default="M" type="'M' | 'L'">
+    Image size, M corresponds to 1152 × 1152, L corresponds to 1536 × 1536, default is M
+
+    Example: `L`
+
+</ResponseField>
+
+<ResponseField name="--qrcorrect" default="M" type="'L' | 'M' | 'Q' | 'H'">
+    QR code error correction level, L, M, Q, H correspond to 7%, 15%, 25%, and 30% error tolerance respectively, default is M
+
+    Example: `H`
+
+</ResponseField>
+
+<ResponseField name="--qranchor" default="square" type="'square' | 'rect'  | 'circle' | 'minimal' | 0 | 1 | 2">
+    Anchor point style, default is square, changing to minimal will significantly reduce QR code recognition rate
+
+    Example: `circle`
+
+</ResponseField>
+
+<ResponseField name="--rp" type="Action">
+    Add this parameter to disable built-in prompt tuning
+
+</ResponseField>
+
+<ResponseField name="--irr" type="number 0.1 - 0.5">
+    Image restoration ratio, can repair adverse effects caused by QR code control, but will lower QR code recognition rate, it is recommended to use it with higher QR code error correction level.
+
+    Example: `0.3`
+
+</ResponseField>
