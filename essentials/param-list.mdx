@@ -18,10 +18,10 @@ Currently unavailable...
 
 This is what you want in the randomly generated AI image.
 
-| Parameter Information | Value   |
-|-----------------------|---------|
-| Bot parameter name    | prompt  |
-| Type                  | string* |
+| Parameter Information | Value    |
+|-----------------------|----------|
+| Bot parameter name    | `prompt` |
+| Type                  | string*  |
 
 
 ### Negative Prompt
@@ -30,7 +30,7 @@ This parameter allows you to exclude elements that you do not want in your AI ge
 
 | Parameter Information | Value  |
 |-----------------------|--------|
-| Bot parameter name    | --no   |
+| Bot parameter name    | `--no` |
 | Type                  | string |
 
 
@@ -40,7 +40,7 @@ Seed for random generation. Default is -1, which means random.
 
 | Parameter Information | Value        |
 |-----------------------|--------------|
-| Bot parameter name    | --seed       |
+| Bot parameter name    | `--seed`     |
 | Type                  | int          |
 | Default value         | `-1`         |
 | Range                 | `[-1, 9999]` |
@@ -50,12 +50,12 @@ Seed for random generation. Default is -1, which means random.
 
 The power of QR code control over the generated image. Lower values make it harder to recognize, higher values result in poorer quality.
 
-| Parameter Information | Value        |
-|-----------------------|--------------|
-| Bot parameter name    | --qrcontrol  |
-| Type                  | float        |
-| Default value         | `1.0`        |
-| Range                 | `[0.5, 1.5]` |
+| Parameter Information | Value         |
+|-----------------------|---------------|
+| Bot parameter name    | `--qrcontrol` |
+| Type                  | float         |
+| Default value         | `1.0`         |
+| Range                 | `[0.5, 1.5]`  |
 
 
 ### Prompt Tuning
@@ -64,7 +64,7 @@ Control whether or not the built-in prompt tuning should be used in command.
 
 | Parameter Information | Value   |
 |-----------------------|---------|
-| Bot parameter name    | --rp    |
+| Bot parameter name    | `--rp`  |
 | Type                  | boolean |
 
 
@@ -74,7 +74,7 @@ This parameter controls the image restoration ratio.
 
 | Parameter Information | Value       |
 |-----------------------|-------------|
-| Bot parameter name    | --irr       |
+| Bot parameter name    | `--irr`     |
 | Type                  | float       |
 | Default value         | `0.3`       |
 | Range                 | `0.1 - 0.5` |
@@ -84,24 +84,24 @@ This parameter controls the image restoration ratio.
 
 Define the size of the AI image.
 
-| Parameter Information | Value   |
-|-----------------------|---------|
-| Bot parameter name    | --size  |
-| Type                  | string  |
-| Default value         | `M`     |
-| Choice                | `M / L` |
+| Parameter Information | Value    |
+|-----------------------|----------|
+| Bot parameter name    | `--size` |
+| Type                  | string   |
+| Default value         | `M`      |
+| Choice                | `M / L`  |
 
 
 ### Padding Ratio
 
 This argument allows you to define the QR code padding ratio.
 
-| Parameter Information | Value     |
-|-----------------------|-----------|
-| Bot parameter name    | --padding |
-| Type                  | float     |
-| Default value         | `0.2`     |
-| Range                 | `0 - 0.5` |
+| Parameter Information | Value       |
+|-----------------------|-------------|
+| Bot parameter name    | `--padding` |
+| Type                  | float       |
+| Default value         | `0.2`       |
+| Range                 | `0 - 0.5`   |
 
 
 ### Correct Level
@@ -110,7 +110,7 @@ Define the error correction level for the QR code.
 
 | Parameter Information | Value           |
 |-----------------------|-----------------|
-| Bot parameter name    | --qrcorrect     |
+| Bot parameter name    | `--qrcorrect`   |
 | Type                  | string          |
 | Default value         | `M`             |
 | Choices               | `L / M / H / Q` |
@@ -122,7 +122,7 @@ Parameter for anchor point style.
 
 | Parameter Information | Value                       |
 |-----------------------|-----------------------------|
-| Bot parameter name    | --qranchor                  |
+| Bot parameter name    | `--qranchor`                |
 | Type                  | string                      |
 | Default value         | `1`                         |
 | Choices               | `Square / Circle / Minimal` |
