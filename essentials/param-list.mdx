@@ -84,6 +84,10 @@ Control whether or not the built-in prompt tuning should be used in command.
 
 This parameter controls the image restoration ratio.
 
+<Frame caption="x: seed / y: restoration rate (0.0 - 0.5)">
+    <img src="/images/param-xy/restore.jpg" style={{ borderRadius: '0.5rem' }} />
+</Frame>
+
 | Parameter Information | Value       |
 |-----------------------|-------------|
 | Bot parameter name    | `--irr`     |
@@ -108,6 +112,10 @@ Define the size of the AI image.
 
 This argument allows you to define the QR code padding ratio.
 
+<Frame caption="x: seed / y: padding ratio (0.1 - 0.5)">
+    <img src="/images/param-xy/padding.jpg" style={{ borderRadius: '0.5rem' }} />
+</Frame>
+
 | Parameter Information | Value       |
 |-----------------------|-------------|
 | Bot parameter name    | `--padding` |
@@ -120,21 +128,29 @@ This argument allows you to define the QR code padding ratio.
 
 Define the error correction level for the QR code.
 
+<Frame caption="x: seed / y: correct level (L / M / Q / H)">
+    <img src="/images/param-xy/level.jpg" style={{ borderRadius: '0.5rem' }} />
+</Frame>
+
 | Parameter Information | Value           |
 |-----------------------|-----------------|
 | Bot parameter name    | `--qrcorrect`   |
 | Type                  | string          |
 | Default value         | `M`             |
-| Choices               | `L / M / H / Q` |
+| Choices               | `L / M / Q / H` |
 
 
 ### Anchor Style
 
 Parameter for anchor point style.
 
+<Frame caption="x: seed / y: anchor style (Square / Circle / Minimal)">
+    <img src="/images/param-xy/level.jpg" style={{ borderRadius: '0.5rem' }} />
+</Frame>
+
 | Parameter Information | Value                       |
 |-----------------------|-----------------------------|
 | Bot parameter name    | `--qranchor`                |
 | Type                  | string                      |
-| Default value         | `1`                         |
+| Default value         | `Square`                    |
 | Choices               | `Square / Circle / Minimal` |
