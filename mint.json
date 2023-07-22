@@ -24,6 +24,7 @@
   "anchors": [
     {
       "icon": "earth-asia",
+      "color": "#000000",
       "url": "https://qrbtf.com",
       "name": "QRBTF"
     },
