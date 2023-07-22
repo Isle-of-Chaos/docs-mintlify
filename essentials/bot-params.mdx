@@ -1,17 +1,26 @@
 ---
-title: 'Discord Bot Parameters'
-description: 'Mintlify gives you complete control over the look and feel of your documentation using the mint.json file'
-icon: 'gear'
+title: 'Bot Commands and Parameters'
+description: ''
+icon: 'code'
 ---
 
-Every Mintlify site needs a `mint.json` file with the core configuration settings. Learn more about the [properties](#properties) below.
+
+Parameters of QRBTF's Discord bot command are slightly different from the web app, this doc will introduce how to use the Discord bot and give you the reference of the parameters.
 
 
-## /qrtest
+## `/qrtest prompt`
+
+The `/qrtest` command are the trail method to generate AI QR codes. You **cannot** add the custom URL in this command, and the generated result are only for test.
 
 ### Usage
 
+In the Discord channel, type `/qrtest`, select the corresponding command, then input prompt and parameters to generate QR codes.
+
 ### Examples
+
+- `/qrtest apple`
+- `/qrtest 1girl, sunset --qrcontrol 1.2`
+- `/qrtest pattern, flowers, birds --seed 1234 --size L --qranchor minimal`
 
 ### Parameters
 

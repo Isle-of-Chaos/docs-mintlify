@@ -46,7 +46,7 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/discord-bot-parameters", "essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": ["essentials/param-list", "essentials/bot-params", "essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
     },
     {
       "group": "Support",
